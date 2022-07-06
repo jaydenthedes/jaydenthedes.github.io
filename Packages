@@ -17,20 +17,3 @@ Name: Safari in Messages
 Author: Andrew Abosh <andrewaboshartworks+chariz@gmail.com>
 Depiction: https://chariz.com/get/safari-in-messages
 SileoDepiction: https://repo.chariz.com/api/sileo/package/com.andrewabosh.safari-in-messages/depiction.json
-
-Package: org.coolstar.sileo
-Version: 2.3-1
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2), | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0), libzstd1
-Architecture: iphoneos-arm
-Filename: ./debs/org.coolstar.sileo_2.3-1_iphoneos-arm.deb
-Size: 2180462
-MD5sum: 41eae225ce6006d6b58e40f6eefd310b
-SHA1: 619c9f89b2b5080b5d418b4e144f129cabd35cc4
-SHA256: adc97a544ef835faacc1b4344dc1f1474e1930d78f72ad53e161d3bad4e18192
-Description: a modern APT package manager frontend
-Icon: https://getsileo.app/img/icon.png
-Name: Sileo
-Author: SIleo Team <getsileoapp@gmail.com>
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
