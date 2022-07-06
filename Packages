@@ -49,3 +49,25 @@ SHA1: 35637d61d34b81500eed892b0d873ff2b06d2f1a
 SHA256: 502c9ef9cccd595d5d4380e7d3b87eb39f562ae597a7044af219c3306f787a58
 Description: de-compesses files in zip format
 Name: unzip
+
+Package: cydia
+Priority: important
+Tag: purpose::uikit, role::enduser
+Version: 1.1.36-2
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xzutils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Architecture: iphoneos-arm
+Filename: ./debs/cydia_1.1.36-2_iphoneos-arm.deb
+Size: 1240728 
+MD5sum: a5d19b0410bd817c62328d0189ad15c8
+SHA1: 9cdd17c8f6c96901908cdf75bd445e8797ee5fab
+SHA256: 6fd60fb927dd1b9eda231fc41a63708b1f6a8118a33e8de0233e90e9b56155ab
+Description: graphical iPhone front-end for APT
+Icon: https://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://cydia.saurik.com/info/cydia/
