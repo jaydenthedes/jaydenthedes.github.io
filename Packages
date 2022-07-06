@@ -17,3 +17,35 @@ Name: Safari in Messages
 Author: Andrew Abosh <andrewaboshartworks+chariz@gmail.com>
 Depiction: https://chariz.com/get/safari-in-messages
 SileoDepiction: https://repo.chariz.com/api/sileo/package/com.andrewabosh.safari-in-messages/depiction.json
+
+Package: unrar
+Priority: optional
+Version: 6.1.4
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Multi-Arch: foreign
+Architecture: iphoneos-arm
+Filename: ./debs/unrar_6.1.4_iphoneos-arm.deb
+Size: 153230
+Installed-Size: 396
+MD5sum: e710b54e8b6a50111364e00470425c83
+SHA1: c2209799ae41bf2768269eb0b6339eef43a5f3d6
+SHA256: 6ccf8846fd3df8eddf20a3a56fd7c91cb71b4e9987f9844074d73b46b891b102
+Description: Unarchiver for .rar files (non-free version) Unrar can extract files from .rar archives. If you want to create .rar archives, install package rar.
+Name: unrar
+
+Package: unzip
+Priority: important
+Tag: purpose::console, role::hacker
+Version: 6.0-25
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Architecture: iphoneos-arm
+Filename: ./debs/unzip_6.0-25_iphoneos-arm.deb
+Size: 109492
+Installed-Size: 1464
+MD5sum: abed0e2556b4ac3bb0d7befa2833a790
+SHA1: 35637d61d34b81500eed892b0d873ff2b06d2f1a
+SHA256: 502c9ef9cccd595d5d4380e7d3b87eb39f562ae597a7044af219c3306f787a58
+Description: de-compesses files in zip format
+Name: unzip
