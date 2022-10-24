@@ -1,8 +1,8 @@
-Origin: Apps Cydia Repository
-Label: Apps Cydia Repository
+Origin: Jay Cydia Repository
+Label: Jay Cydia Repository
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Apps Cydia Repository - Apps On AppStore in Cydia Repository!
+Description: Jay Cydia Repository - Apps On AppStore in Cydia Repository!
